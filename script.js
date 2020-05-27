@@ -55,11 +55,11 @@ class Point {
   }
   draw() {
     fill(this.color)
-    if (this.color != 255) {
+    //if (this.color != 255) {
       ellipse(this.x,this.y,pr,pr);
-    } else {
-      rect(this.x - (pr*0.9/2), this.y - (pr*0.9/2), pr * 0.9, pr * 0.9);
-    }
+//     } else {
+//       rect(this.x - (pr*0.9/2), this.y - (pr*0.9/2), pr * 0.9, pr * 0.9);
+//     }
 
     this.color -= 5;
   }
